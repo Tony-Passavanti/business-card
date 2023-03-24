@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border: 2px solid #e0e1dd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #e0e1dd;
+    
+}
+
+.avatar:hover {
+    box-shadow: 0px 0px 15px 0px greenyellow;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #415a77;
+    color: #e0e1dd;
+    border-bottom: 6px solid #1b263b;
+    border-radius: 20px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
